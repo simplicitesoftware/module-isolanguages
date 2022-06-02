@@ -11,7 +11,35 @@
 `ISOLanguages` module definition
 ================================
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=simplicite-modules-ISOLanguages&metric=alert_status)](https://sonarcloud.io/dashboard?id=simplicite-modules-ISOCountries)
 
+### Introduction
+
+Languages (ISO 639)
+
+### Import
+
+To import this module:
+
+- Create a module named `ISOLanguages`
+- Set the settings as:
+
+```json
+{
+	"type": "git",
+	"origin": {
+		"uri": "https://github.com/simplicitesoftware/module-isolanguages.git"
+	}
+}
+```
+
+- Click on the _Import module_ button
+
+### Load data
+
+Languages data is provided as the module's dataset.
+
+Open this dataset and click on the _Apply_ button after having imported the module and made a full clear cache.
 
 `ISOLanguage` business object definition
 ----------------------------------------
