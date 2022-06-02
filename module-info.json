@@ -1,0 +1,9 @@
+{
+    "date": "2022-06-02 15:32:32",
+    "name": "ISOLanguages",
+    "format": "xml",
+    "files": ["ISOLanguages.xml"],
+    "repository": {"origin": {"uri": "https://github.com/simplicitesoftware/module-isolanguages.git"}},
+    "version": "5",
+    "platform": "5.2.5"
+}
