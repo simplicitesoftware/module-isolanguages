@@ -87,8 +87,8 @@
 		<row_module_id.mdl_name>ISOLanguages</row_module_id.mdl_name>
 	</data>
 	<data>
-		<fld_name>isoLngCode3Digits</fld_name>
-		<fld_dbname>iso_lng_code3digits</fld_dbname>
+		<fld_name oldvalue="isoLngCode3Digits">isoLngCode3</fld_name>
+		<fld_dbname>iso_lng_code3</fld_dbname>
 		<fld_visible>3</fld_visible>
 		<fld_updatable>1</fld_updatable>
 		<fld_required>1</fld_required>
@@ -124,8 +124,8 @@
 		<row_module_id.mdl_name>ISOLanguages</row_module_id.mdl_name>
 	</data>
 	<data>
-		<fld_name>isoLngCode3DigitsB</fld_name>
-		<fld_dbname>iso_lng_code3digitsB</fld_dbname>
+		<fld_name oldvalue="isoLngCode3B" oldvalue1="isoLngCode3DigitsB">isoLngCode3B</fld_name>
+		<fld_dbname>iso_lng_code3b</fld_dbname>
 		<fld_visible>3</fld_visible>
 		<fld_updatable>1</fld_updatable>
 		<fld_required>1</fld_required>
@@ -161,8 +161,8 @@
 		<row_module_id.mdl_name>ISOLanguages</row_module_id.mdl_name>
 	</data>
 	<data>
-		<fld_name>isoLngCode3DigitsT</fld_name>
-		<fld_dbname>iso_lng_code3digits_t</fld_dbname>
+		<fld_name oldvalue="isoLngCode3DigitsT">isoLngCode3T</fld_name>
+		<fld_dbname>iso_lng_code3t</fld_dbname>
 		<fld_visible>3</fld_visible>
 		<fld_updatable>1</fld_updatable>
 		<fld_required>1</fld_required>
@@ -260,13 +260,13 @@
       <div class="field" data-field="isoLngCode"></div>
     </div>
     <div class="col-sm-3">
-      <div class="field" data-field="isoLngCode3DigitsT"></div>
+      <div class="field" data-field="isoLngCode3T"></div>
     </div>
     <div class="col-sm-3">
-      <div class="field" data-field="isoLngCode3DigitsB"></div>
+      <div class="field" data-field="isoLngCode3B"></div>
     </div>
     <div class="col-sm-3">
-      <div class="field" data-field="isoLngCode3Digits"></div>
+      <div class="field" data-field="isoLngCode3"></div>
     </div>
   </div>
 </div>]]></ofa_ui>
@@ -408,7 +408,7 @@
 	</data>
 	<data>
 		<obf_object_id.obo_name>ISOLanguage</obf_object_id.obo_name>
-		<obf_field_id.fld_name>isoLngCode3Digits</obf_field_id.fld_name>
+		<obf_field_id.fld_name>isoLngCode3</obf_field_id.fld_name>
 		<obf_field_id.fld_type>3</obf_field_id.fld_type>
 		<obf_order>30</obf_order>
 		<obf_group_by/>
@@ -437,7 +437,7 @@
 	</data>
 	<data>
 		<obf_object_id.obo_name>ISOLanguage</obf_object_id.obo_name>
-		<obf_field_id.fld_name>isoLngCode3DigitsT</obf_field_id.fld_name>
+		<obf_field_id.fld_name>isoLngCode3T</obf_field_id.fld_name>
 		<obf_field_id.fld_type>3</obf_field_id.fld_type>
 		<obf_order>40</obf_order>
 		<obf_group_by/>
@@ -466,7 +466,7 @@
 	</data>
 	<data>
 		<obf_object_id.obo_name>ISOLanguage</obf_object_id.obo_name>
-		<obf_field_id.fld_name>isoLngCode3DigitsB</obf_field_id.fld_name>
+		<obf_field_id.fld_name>isoLngCode3B</obf_field_id.fld_name>
 		<obf_field_id.fld_type>3</obf_field_id.fld_type>
 		<obf_order>50</obf_order>
 		<obf_group_by/>
@@ -567,7 +567,7 @@
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
-		<tsl_id.fld_name>isoLngCode3Digits</tsl_id.fld_name>
+		<tsl_id.fld_name>isoLngCode3</tsl_id.fld_name>
 		<tsl_lang>ENU</tsl_lang>
 		<tsl_value>Code 3 digits</tsl_value>
 		<tsl_simplehelp/>
@@ -579,7 +579,7 @@
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
-		<tsl_id.fld_name>isoLngCode3DigitsB</tsl_id.fld_name>
+		<tsl_id.fld_name>isoLngCode3B</tsl_id.fld_name>
 		<tsl_lang>ENU</tsl_lang>
 		<tsl_value>Code 3 digits (B)</tsl_value>
 		<tsl_simplehelp/>
@@ -591,7 +591,7 @@
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
-		<tsl_id.fld_name>isoLngCode3DigitsT</tsl_id.fld_name>
+		<tsl_id.fld_name>isoLngCode3T</tsl_id.fld_name>
 		<tsl_lang>ENU</tsl_lang>
 		<tsl_value>Code 3 digits (T)</tsl_value>
 		<tsl_simplehelp/>
@@ -627,7 +627,7 @@
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
-		<tsl_id.fld_name>isoLngCode3Digits</tsl_id.fld_name>
+		<tsl_id.fld_name>isoLngCode3</tsl_id.fld_name>
 		<tsl_lang>FRA</tsl_lang>
 		<tsl_value>Code 3 caractères</tsl_value>
 		<tsl_simplehelp/>
@@ -639,7 +639,7 @@
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
-		<tsl_id.fld_name>isoLngCode3DigitsB</tsl_id.fld_name>
+		<tsl_id.fld_name>isoLngCode3B</tsl_id.fld_name>
 		<tsl_lang>FRA</tsl_lang>
 		<tsl_value>Code 3 caractères (TB)</tsl_value>
 		<tsl_simplehelp/>
@@ -651,7 +651,7 @@
 	</data>
 	<data>
 		<tsl_typeField>F</tsl_typeField>
-		<tsl_id.fld_name>isoLngCode3DigitsT</tsl_id.fld_name>
+		<tsl_id.fld_name>isoLngCode3T</tsl_id.fld_name>
 		<tsl_lang>FRA</tsl_lang>
 		<tsl_value>Code 3 caractères (T)</tsl_value>
 		<tsl_simplehelp/>
@@ -710,6 +710,16 @@
 		<tsl_value>Langue|Langues</tsl_value>
 		<tsl_help/>
 		<row_module_id.mdl_name>ISOLanguages</row_module_id.mdl_name>
+	</data>
+</object>
+<object>
+	<name>Dataset</name>
+	<action>upsert</action>
+	<data>
+		<row_module_id.mdl_name>ISOLanguages</row_module_id.mdl_name>
+		<dt_name>ISOLanguages-data</dt_name>
+		<dt_file>data/ISOLanguages-data.zip</dt_file>
+		<dt_desc><![CDATA[Created by module's data export on 2022-06-02 15:55:37]]></dt_desc>
 	</data>
 </object>
 </simplicite>

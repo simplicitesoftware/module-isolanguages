@@ -76,19 +76,19 @@ components:
     ISOLanguage:
       type: object
       properties:
+        isoLngCode3:
+          description: 3 digits code (ISO-639-3)
+          type: string
         isoLngCode:
           description: 2 digits code (ISO-639-1)
-          type: string
-        isoLngCode3Digits:
-          description: 3 digits code (ISO-639-3)
           type: string
         isoLngName:
           description: ISO language name
           type: string
-        isoLngCode3DigitsB:
+        isoLngCode3B:
           description: 3 digits code (ISO-639-2/B)
           type: string
-        isoLngCode3DigitsT:
+        isoLngCode3T:
           description: 3 digits code (ISO 639-2/T)
           type: string
         row_id:
@@ -239,19 +239,19 @@ paths:
       - schema:
           type: string
         in: query
-        name: isoLngCode3Digits
+        name: isoLngCode3
         description: Search filter for 3 digits code (ISO-639-3)
         required: false
       - schema:
           type: string
         in: query
-        name: isoLngCode3DigitsT
+        name: isoLngCode3T
         description: Search filter for 3 digits code (ISO 639-2/T)
         required: false
       - schema:
           type: string
         in: query
-        name: isoLngCode3DigitsB
+        name: isoLngCode3B
         description: Search filter for 3 digits code (ISO-639-2/B)
         required: false
       tags:

@@ -24,7 +24,7 @@ ISO 639 languages
 |--------------------------------------------------------------|------------------------------------------|----------|-----------|----------|----------------------------------------------------------------------------------|
 | `isoLngName`                                                 | char(100)                                | yes      | yes       |          | ISO language name                                                                |
 | `isoLngCode`                                                 | char(2)                                  | yes*     | yes       |          | 2 digits code (ISO-639-1)                                                        |
-| `isoLngCode3Digits`                                          | char(3)                                  | yes      | yes       |          | 3 digits code (ISO-639-3)                                                        |
-| `isoLngCode3DigitsT`                                         | char(3)                                  | yes      | yes       |          | 3 digits code (ISO 639-2/T)                                                      |
-| `isoLngCode3DigitsB`                                         | char(3)                                  | yes      | yes       |          | 3 digits code (ISO-639-2/B)                                                      |
+| `isoLngCode3`                                                | char(3)                                  | yes      | yes       |          | 3 digits code (ISO-639-3)                                                        |
+| `isoLngCode3T`                                               | char(3)                                  | yes      | yes       |          | 3 digits code (ISO 639-2/T)                                                      |
+| `isoLngCode3B`                                               | char(3)                                  | yes      | yes       |          | 3 digits code (ISO-639-2/B)                                                      |
 
